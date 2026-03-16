@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<br lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Responsive Navbar</title>
+<link rel="stylesheet" href="my_site.css">
+</head>
+
+<br>
+
+<nav class="navbar">
+
+<div class="logo">MyWebsite</div>
+
+<input type="checkbox" id="menu-toggle">
+<label for="menu-toggle" class="menu-icon">&#9778;</label>
+
+<ul class="nav-links">
+
+<li><a href="#home">Home</a></li>
+<li><a href="#about">About</a></li>
+<li><a href="#services">Services</a></li>
+<li><a href="#portfolio">Portfolio</a></li>
+<li><a href="#todo">ToDoList</a></li>
+<li><a href="#contact">Contact</a></li>
+
+</ul>
+
+</nav>
+
+<section id="home"><h1>Home Section</h1></section>
+<section id="about"><h1>About Section</h1></section>
+<section id="services"><h1>Services Section</h1></section>
+<section id="portfolio"><h1>Portfolio Section</h1></section>
+<section id="todo">
+    
+ <div class="list-box" 
+style="max-width:400px;
+margin:40px auto;
+padding:25px;
+background:linear-gradient(135deg,#667eea,#764ba2);
+border-radius:12px;
+box-shadow:0 10px 25px rgba(0,0,0,0.2);
+color:white;
+font-family:Arial, sans-serif;">
+
+<h5 style="text-align:center;font-size:22px;margin-bottom:5px;">
+To Do List
+</h5>
+
+<p id="list-title" 
+style="text-align:center;font-size:14px;margin-bottom:20px;color:#e0e0e0;">
+you can make appointment or list here.
+</p>
+
+<input 
+type="text" 
+id="txt-list" 
+placeholder="enter your task"
+style="width:100%;
+padding:10px;
+border:none;
+border-radius:6px;
+outline:none;
+margin-bottom:10px;
+font-size:14px;"
+>
+
+<button 
+id="list-btn"
+style="width:100%;
+padding:10px;
+background:#00e676;
+border:none;
+border-radius:6px;
+font-size:16px;
+font-weight:bold;
+cursor:pointer;
+transition:0.3s;">
+Add
+</button>
+
+<div style="margin-top:20px;max-height:250px;overflow-y:auto;">
+
+<ol id="lists" 
+style="padding-left:20px;font-size:16px;line-height:1.8;">
+</ol>
+
+</div>
+
+</div>
+ 
+
+  
+ </section> <br>
+  
+<section id="contact"><h1>Contact Section</h1></section>
+ 
+<script src="./my_site.js"></script>
+</body>
+</html>
