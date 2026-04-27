@@ -301,7 +301,7 @@ left:0;
 @keyframes fadeInUp {
   from {
     opacity: 0;
-    transform: translateY(15px);
+    transform: translateY(25px);
   }
   to {
     opacity: 1;
